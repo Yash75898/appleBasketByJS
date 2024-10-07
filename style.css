@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-div{
+    background-image: url(https://previews.123rf.com/images/bozenafulawka/bozenafulawka1303/bozenafulawka130300011/18306856-apples-on-wooden-table-fresh-fruit-background-with-copy-space.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+    /* margin-top: 4rem; */
+    padding-top: 20%;
+}
+
+button img{
+    max-width: 40px;
+}
